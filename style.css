@@ -21,14 +21,13 @@ body{
     color: #fff;
 }
 
-.menu-bar{
+.menu-bar {
     height: 5vh;
-    background-color: #197644;
+    background-color: #107c41;
     display: flex;
-    
 }
 
-.menu-item{
+.menu-item {
     padding-left: 10px;
     padding-right: 10px;
     color: #fff;
@@ -37,37 +36,37 @@ body{
     align-items: center;
 }
 
-.menu-item.selected{
+.menu-item.selected {
     background-color: #fff;
-    color: #197644;
+    color: #107c41;
 }
 
-.menu-item:hover{
+.menu-item:hover {
     background-color: #0c5e31;
     cursor: pointer;
 }
 
-.menu-item.selected:hover{
+.menu-item.selected:hover {
     background-color: #fff;
     cursor: default;
-}
+} 
 
-.menu-icon-bar{
+.menu-icon-bar {
     height: 6vh;
     background-color: rgb(241, 241, 241);
     display: flex;
     align-items: center;
 }
 
-.menu-icon{
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.menu-icon {
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 100%;
+   display: flex;
+   align-items: center;
 }
 
-.menu-icon:hover{
+.menu-icon:hover {
     background-color: lightgray;
     cursor: pointer;
 }
