@@ -87,11 +87,10 @@ body{
     height: 5vh;
 }
 
-.data-container{
+.data-container {
     height: 75vh;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .select-all{
@@ -104,12 +103,14 @@ body{
     width: calc(100vw-30px);
     height: 30px;
     border: 1px solid lightgray;
+    display: flex;
 }
 
 .row-name-container{
     width: 30px;
     height: calc(75vh - 30px);
     border: 1px solid lightgray;
+    
 }
 
 .input-cell-container{
@@ -119,7 +120,7 @@ body{
 }
 .sheet-bar{
     height: 4vh;
-    display: flex;
+    display: flex; 
 }
 
 .scroller{
@@ -167,3 +168,30 @@ body{
     cursor: default;
 }
 
+.column-name {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    font-weight: "bold";
+}
+
+.row-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.cell-row {
+    display: flex;
+    
+}
+.input-cell {
+    width: 100px;
+    height: 25px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray
+}
